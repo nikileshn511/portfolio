@@ -1,7 +1,7 @@
 :root{
   --bg:#0a0e17; --bg-soft:#0d1220; --surface:#121a2b; --surface-2:#17203380;
   --border:#242e45; --text:#e8ecf6; --muted:#8a93ab; --muted-2:#5d6786;
-  --teal:#54e0c7; --violet:#8b7cf6; --amber:#f0b854;
+  --teal:#54e0c7; --violet:#00ff84; --amber:#8854f0;
   --grad: linear-gradient(120deg, var(--teal), var(--violet));
   --radius:14px; --maxw:1120px;
   padding-top: env(safe-area-inset-top,0px); padding-bottom: env(safe-area-inset-bottom,0px);
@@ -68,7 +68,7 @@ nav.links a:hover{color:var(--text);}
 .hero{padding:100px 24px 80px; position:relative;}
 .hero-grid{max-width:var(--maxw); margin:0 auto; display:grid; grid-template-columns:1.15fr .85fr; gap:56px; align-items:center;}
 @media (max-width:900px){ .hero-grid{grid-template-columns:1fr;} }
-.hero-name{font-size:clamp(2.3rem,5.6vw,3.6rem); font-weight:700; letter-spacing:-0.02em; line-height:1.06;}
+.hero-name{font-size:clamp(2.3rem,5.6vw,3.6rem); font-weight:10000; letter-spacing:-0.02em; line-height:1.06;}
 .hero-role{font-family:'JetBrains Mono',monospace; color:var(--violet); font-size:clamp(1rem,2vw,1.2rem); margin:14px 0 20px; display:flex; align-items:center;}
 .cursor{display:inline-block; width:2px; height:1.1em; background:var(--violet); margin-left:4px; animation:blink 1s steps(2) infinite;}
 @keyframes blink{50%{opacity:0;}}
